@@ -1,5 +1,7 @@
 streamlit
-face-recognition==1.3.0
 opencv-python-headless
-numpy
+pyportfolioopt
 cmake
+numpy
+face-recognition==1.3.0
+
