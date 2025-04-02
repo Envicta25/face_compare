@@ -3,6 +3,7 @@ streamlit
 opencv-python
 cmake
 pyyaml
+dlib
 
 # Форк face_recognition с использованием предсобранной библиотеки dlib
 face_recognition @ git+https://github.com/thetoby9944/face_recognition
