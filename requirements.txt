@@ -1,7 +1,9 @@
-streamlit
-opencv-python-headless
-pyportfolioopt
-cmake
+wheel
 numpy
-face-recognition==1.3.0
-
+pandas
+plotly
+opencv-contrib-python
+cmake
+dlib
+face_recognition
+streamlit

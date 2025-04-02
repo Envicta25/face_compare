@@ -46,11 +46,12 @@ def process_video_and_compare(video_file, known_face_encodings, tolerance=0.6):
     # Открываем видео через OpenCV
     cap = cv2.VideoCapture(temp_path)
 
-    frame_interval = 10  # берем каждый 10-й кадр
+    frame_interval = 5  # берем каждый 5-й кадр
     frame_count = 0
     found_match = False
 
     while True:
+        # Читает один кадр из видео
         ret, frame_bgr = cap.read()
         if not ret:
             break
